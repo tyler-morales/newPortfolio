@@ -2,7 +2,7 @@
 title: "Projects"
 description : "My latest projects"
 weight: 1
-draft: true
+draft: false
 ---
 
 

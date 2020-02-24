@@ -1,5 +1,5 @@
 ---
 title: "Home"
-draft: true
+draft: false
 description: "Hello, 🌎 I'm Tyler, A Front-end Developer based in Chicago, IL 🇺🇸"
 ---

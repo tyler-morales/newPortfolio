@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-draft: true
+draft: false
 description : "Tutorials, tips and tricks for developers"
 weight: 3
 ---

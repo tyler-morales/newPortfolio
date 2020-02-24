@@ -3,7 +3,7 @@ weight: 1
 title: "International Space Station Tracker"
 description: "Building NASA’s real-time tracker of the International Space Station (ISS)"
 typeOf: "Web App"
-draft: true
+draft: false
 thumbnail: "/images/iss_thumbnail.jpg"
 mockup: "/images/iss_desktop.png"
 liveLink: "https://peaceful-knuth-debc9a.netlify.com/"

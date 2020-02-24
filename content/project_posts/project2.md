@@ -3,7 +3,7 @@ weight: 1
 title: "Text Adventure Game"
 description: "A choose your own adventure JS game"
 typeOf: "Game"
-draft: true
+draft: false
 thumbnail: "/images/textAdventure_thumbnail.png"
 mockup: "/images/textAdventure_desktop.png"
 liveLink: "https://peaceful-knuth-debc9a.netlify.com/"
