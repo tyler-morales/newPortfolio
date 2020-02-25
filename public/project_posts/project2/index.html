@@ -9,9 +9,11 @@
     
     
     
-    <link rel="stylesheet" href="/scss/main.min.045f120e2d5498434bca868a910728c7360e1641e532827282a2bfd3cbe0ad3d.css">
+    <link rel="stylesheet" href="/scss/main.min.ece8246a6146518a26dbf80713270e699fc0104912c477f0d8a0e1b6f6295384.css">
     
     <title>Hugo Sandbox</title>
+
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 <body>
@@ -66,7 +68,7 @@
         
         <div class="brief-container__bites">
             <div class="brief-container__bites__section">
-                <h3 class="brief-container__bites--title"><span class="underline--magical">Technologies</span></h3>
+                <h3 class="brief-container__bites--title">Technologies</h3>
                 <ul class="brief-container__bites__bullets">
                     
                     <li class="brief-container__bites__bullets--item">JS</li>
@@ -103,11 +105,10 @@
     </section>
 
     
-    <section class="situation">
+    <section class="situation context">
         <h4 class="sm-head">The Situation</h4>
         <h1 class="block-text">We need an interactive and real-time view of the ISS with a modern design</h1>
     </section>
-
 
     <div class="text-block">
         <h2 class="text-block--title">Translating Data Into a Readable, Digestible &amp; Beautiful Application</h2>
@@ -182,6 +183,8 @@
 
     
     <section class="process">
+
+        
         <section class="process__00">
             <h4 class="sm-head">The Process</h4>
             <h1 class="block-text">Building Smart</h1>
@@ -212,6 +215,7 @@
             </div>
         </section>
 
+        
         <section class="process__01">
 
             <div>
@@ -238,6 +242,7 @@
             </div>
         </section>
 
+        
         <section class="process__02">
             <h4 class="sm-head">02. Inspiration</h4>
             <h1 class="block-text">Looking Abroad</h1>
@@ -258,15 +263,13 @@
                     <div class="process__02__competition__cards__card">
                         <img src="/images/comp_01.png" alt="" class="process__02__competition__cards__card--img">
                         <h3 class="process__02__competition__cards__card--title">isstracker.com</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni voluptas suscipit autem id
-                            saepe impedit vitae natus dolorum eum repellat!</p>
+                        <p></p>
                         <h5 class="footnote"><a href="#">isstracker.com</a></h5>
                     </div>
                     <div class="process__02__competition__cards__card">
                         <img src="/images/comp_02.png" alt="" class="process__02__competition__cards__card--img">
                         <h3 class="process__02__competition__cards__card--title">Satflare</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni voluptas suscipit autem id
-                            saepe impedit vitae natus dolorum eum repellat!</p>
+                        <p></p>
                         <h5 class="footnote"><a href="#">satflare.com</a></h5>
                     </div>
                 </div>
@@ -275,6 +278,7 @@
 
         </section>
 
+        
         <section class="process__03">
             <h4 class="sm-head">03. Strategy: User Experience (UX)</h4>
             <h1 class="block-text">Thinking First</h1>
@@ -296,6 +300,7 @@
                 </div>
         </section>
 
+        
         <section class="process__04">
             <h4 class="sm-head">04. Design (UI)</h4>
             <h1 class="block-text">Designing Beyond Visuals</h1>
@@ -386,6 +391,7 @@
             </div>
         </section>
 
+        
         <section class="process__05">
             <h4 class="sm-head">05. Development (software)</h4>
             <h1 class="block-text">Putting it all Together</h1>
@@ -428,6 +434,7 @@
 
     <footer>Made with ♡ by Tyler Morales</footer>
 
+    
     <script>
         const navButtons = [...document.querySelectorAll("button[aria-expanded]")];
 
@@ -449,7 +456,18 @@
             
         });
     </script>
+
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"></script>
+    <script>
+        const instance = new Mark(document.querySelector("section.context"));
+        instance.mark(["interactive","real-time", "modern design"],  {
+            "element": "span",
+            "className": "highlight"
+        });
+    </script>
+
+
     </body>
 
     </html>

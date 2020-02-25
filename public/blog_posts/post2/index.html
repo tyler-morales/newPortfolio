@@ -9,9 +9,11 @@
     
     
     
-    <link rel="stylesheet" href="/scss/main.min.045f120e2d5498434bca868a910728c7360e1641e532827282a2bfd3cbe0ad3d.css">
+    <link rel="stylesheet" href="/scss/main.min.ece8246a6146518a26dbf80713270e699fc0104912c477f0d8a0e1b6f6295384.css">
     
     <title>Hugo Sandbox</title>
+
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 <body>
@@ -47,6 +49,7 @@ Desk setup
 
     <footer>Made with ♡ by Tyler Morales</footer>
 
+    
     <script>
         const navButtons = [...document.querySelectorAll("button[aria-expanded]")];
 
@@ -68,7 +71,18 @@ Desk setup
             
         });
     </script>
+
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"></script>
+    <script>
+        const instance = new Mark(document.querySelector("section.context"));
+        instance.mark(["interactive","real-time", "modern design"],  {
+            "element": "span",
+            "className": "highlight"
+        });
+    </script>
+
+
     </body>
 
     </html>
