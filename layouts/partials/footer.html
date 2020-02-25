@@ -1,5 +1,6 @@
     <footer>Made with ♡ by Tyler Morales</footer>
 
+    <!-- Hamburger Menu -->
     <script>
         const navButtons = [...document.querySelectorAll("button[aria-expanded]")];
 
@@ -21,7 +22,18 @@
             // Do something else, like open/close menu
         });
     </script>
-    
+
+    <!-- Mark.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"></script>
+    <script>
+        const instance = new Mark(document.querySelector("section.context"));
+        instance.mark(["interactive","real-time", "modern design"],  {
+            "element": "span",
+            "className": "highlight"
+        });
+    </script>
+
+
     </body>
 
     </html>

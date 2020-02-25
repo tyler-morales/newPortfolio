@@ -67,7 +67,6 @@
     }
 
     .brief-container {
-        height: 80vh;
 
         @media (max-width: 767px) {
             height: auto;
@@ -111,6 +110,7 @@
 
     .situation {
         margin-bottom: 40%;
+        line-height: 1.7;
 
         @media (max-width: 767px) {
             height: auto;
@@ -412,3 +412,4 @@
         margin-bottom: 100px;
     }
 }
+

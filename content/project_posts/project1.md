@@ -33,8 +33,11 @@ goals: [Too much complexity, Increase number of users, Match design aesthetic of
 goalsFootnote: "¹SpaceX, Boeing, Lockheed Martin"
 solutions: [Translate data into size-able/ readable chunks, Implement a SEO strategy, Use design best practices & systems]
 moodboard: [Sleek, Modern, Professional, Strong]
+competition: 
+    one: "While ISS Tracker does have an array of data points and figures, it lack a clean and modern asthetic that is what is expected with the websites of today."
+    two: "Visually, this tracker lacks in a modern style, however it does display a unique viewing of the globe that others have not included."
 infoArc: "The aggregation of the many types and amount ofdata received from the ISS can be overwhelming tothose who are not in the field of astronomy.Information architecture gather all of the data–measurements, figures, facts etc., distills and/ orgroups them into similar groups. Then, it is possible tosee relationships and patterns."
-interaction: "Given the groupings of information for the IA stage,the interaction design stage tries to make sense ofthose groups by searching for otherwise hiddenpatterns. When these patterns are uncovered, it isthen easier to connect the dots between the originaldata/ information set. As a result, no longer is the userleft to understand the copious amounts of unfilteredinformation. The most important information isdisplayed beautifully & logically."
+interaction: "Given the groupings of information for the IA stage,the interaction design stage tries to make sense ofthose groups by searching for otherwise hiddenpatterns. When these patterns are uncovered, it is then easier to connect the dots between the originaldata/ information set. As a result, no longer is the userleft to understand the copious amounts of unfilteredinformation. The most important information isdisplayed beautifully & logically."
 grids:
 - title: Flexbox CSS Grid
   description: 
