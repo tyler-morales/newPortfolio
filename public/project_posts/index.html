@@ -9,7 +9,7 @@
     
     
     
-    <link rel="stylesheet" href="/scss/main.min.ece8246a6146518a26dbf80713270e699fc0104912c477f0d8a0e1b6f6295384.css">
+    <link rel="stylesheet" href="/scss/main.min.6ceeb28790544b11e7258dc30cbdce880c844a4c037edac0edbd726e235c5014.css">
     
     <title>Hugo Sandbox</title>
 
@@ -46,12 +46,6 @@
 <main class="projects__container">
     <div>
         <h1 class="projects__container--title">Projects</h1>
-        <h4 class="projects__container--description">My latest projects</h4>
-
-        <div class="box">
-    <div class="box--num">2</div>
-    <div class="box--description"># of posts</div>
-</div>
 
         <div class="projects">
             
@@ -75,6 +69,10 @@
             
         </div>
     </div>
+    <div class="box">
+    <div class="box--num">2</div>
+    <div class="box--description"># of posts</div>
+</div>
 </main>
 
 
@@ -109,9 +107,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"></script>
     <script>
         const instance = new Mark(document.querySelector("section.context"));
-        instance.mark(["interactive","real-time", "modern design"],  {
-            "element": "span",
+        instance.mark(["interactive", "real-time", "modern design"], {
+            "element": "mark",
             "className": "highlight"
+        });
+
+        const instance2 = new Mark(document.querySelector("section.about"));
+        instance2.mark(["purposeful design", "intuitive web experiences", "building interactive", "Chicago meetups", "document our progress", "learn the latest technologies", "globally","Web Development and Design", "Columbia College Chicago"], {
+            "element": "mark",
+            "className": "highlight",
+            "acrossElements": true,
+            "separateWordSearch": false,
+            "accuracy": {
+                "value": "exactly",
+                "limiters": [",", "."]
+            },
         });
     </script>
 

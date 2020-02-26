@@ -1,17 +1,9 @@
 .projects__container {
-    padding: 30px;
+    padding: 0 30px;
 
     &--title {
-        font-size: 32px;
         color: var(--color-text-main);
-        margin-bottom: 30px;
     }
-
-    &--description {
-        color: var(--color-text-main);
-        margin-bottom: 30px;
-    }
-
 }
 
 .projects {
@@ -27,10 +19,8 @@
     &__post {
         display: grid;
         gap: 20px;
-        grid-template-columns: 1fr;
         align-items: center;
         background-color: var(--color-secondary);
-        margin: 30px 0;
         padding: 40px;
         max-width: 350px;
 

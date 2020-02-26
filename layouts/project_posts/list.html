@@ -4,9 +4,6 @@
 <main class="projects__container">
     <div>
         <h1 class="projects__container--title">{{ .Title }}</h1>
-        <h4 class="projects__container--description">{{.Description}}</h4>
-
-        {{ partial "page_counter" .}}
 
         <div class="projects">
             {{ range .Pages }}
@@ -21,6 +18,7 @@
             {{ end }}
         </div>
     </div>
+    {{ partial "page_counter" .}}
 </main>
 
 

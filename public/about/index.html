@@ -9,7 +9,7 @@
     
     
     
-    <link rel="stylesheet" href="/scss/main.min.ece8246a6146518a26dbf80713270e699fc0104912c477f0d8a0e1b6f6295384.css">
+    <link rel="stylesheet" href="/scss/main.min.6ceeb28790544b11e7258dc30cbdce880c844a4c037edac0edbd726e235c5014.css">
     
     <title>Hugo Sandbox</title>
 
@@ -47,8 +47,8 @@
     <img src="https://avatars3.githubusercontent.com/u/44333523?s=460&v=4" alt="Profile Image" class="profile">
     <div class="about__text">
         <h2>Tyler Morales</h2>
-        <p>Ever since a young age, I’ve been interested in technology and design. From growing up with the internet, building countless projects and constantly having an urge to create anything, <span class="highlight">purposeful design</span> has been important to me. Ultimately, this fascination with <span class="highlight">creativity</span> and <span class="highlight">design</span> has led me to find web development the perfect landscape to extend my passion towards building <span class="highlight">interactive</span> and <span class="highlight">intuitive web experiences</span>.</p>
-        <p>Along with development, I am very active in the developer community online and in local Chicago meetups. I, amongst others, build up and motivate other like minded individuals, document our progress and learn the latest technologies with developers globally! Currently, I am studying <span class="highlight">Web Development and Design</span> at Columbia College Chicago. </p>
+        <p>Ever since a young age, I’ve been interested in technology and design. From growing up with the internet, building countless projects and constantly having an urge to create anything, purposeful design has been important to me. Ultimately, this fascination with creativity and design has led me to find web development the perfect landscape to extend my passion towards building interactive and intuitive web experiences.</p>
+        <p>Along with development, I am very active in the developer community online and in local Chicago meetups. I, amongst others, build up and motivate other like minded individuals, document our progress and learn the latest technologies with developers globally! Currently, I am studying Web Development and Design at Columbia College Chicago.</p>
     </div>
 </section>
 
@@ -84,9 +84,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"></script>
     <script>
         const instance = new Mark(document.querySelector("section.context"));
-        instance.mark(["interactive","real-time", "modern design"],  {
-            "element": "span",
+        instance.mark(["interactive", "real-time", "modern design"], {
+            "element": "mark",
             "className": "highlight"
+        });
+
+        const instance2 = new Mark(document.querySelector("section.about"));
+        instance2.mark(["purposeful design", "intuitive web experiences", "building interactive", "Chicago meetups", "document our progress", "learn the latest technologies", "globally","Web Development and Design", "Columbia College Chicago"], {
+            "element": "mark",
+            "className": "highlight",
+            "acrossElements": true,
+            "separateWordSearch": false,
+            "accuracy": {
+                "value": "exactly",
+                "limiters": [",", "."]
+            },
         });
     </script>
 
