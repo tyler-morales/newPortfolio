@@ -6,7 +6,7 @@
 
     <div class="home__container--socials">{{ partial "socials" . }}</div>
 
-    <div class="home__container__cards">
+    <div class="home__container__cards fade-in-slow">
         {{ range .Pages }}
         <a href="{{ .Permalink }}" class="home__card">
             <h2 class="home__card--title">{{ .Title }}</h2>
