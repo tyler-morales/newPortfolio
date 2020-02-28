@@ -22,8 +22,7 @@
         align-items: center;
         background-color: var(--color-secondary);
         padding: 40px;
-        max-width: 350px;
-
+        // max-width: 350px;
 
         @media (max-width: 767px) {
             grid-template-columns: 1fr;
@@ -59,7 +58,7 @@
             padding: 10px 30px;
             justify-self: center;
             transition: all .3s;
-
+            
             &:hover {
                 color: var(--color-primary);
                 transform: translateX(3px);

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on Hugo Sandbox</title>
-    <link>/about/</link>
-    <description>Recent content in About on Hugo Sandbox</description>
+    <title>About on Tyler&#39;s Portfolio</title>
+    <link>tmo.codes/about/</link>
+    <description>Recent content in About on Tyler&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="tmo.codes/about/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
