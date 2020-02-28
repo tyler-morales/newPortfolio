@@ -7,10 +7,10 @@
 }
 
 .projects {
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    gap: 40px;
 
     @media (max-width: 968px) {
         grid-template-columns: 1fr;
@@ -22,7 +22,11 @@
         align-items: center;
         background-color: var(--color-secondary);
         padding: 40px;
+<<<<<<< HEAD
         // max-width: 350px;
+=======
+        max-width: 350px;
+>>>>>>> parent of 97a5daf... add home and project page animations
 
         @media (max-width: 767px) {
             grid-template-columns: 1fr;
