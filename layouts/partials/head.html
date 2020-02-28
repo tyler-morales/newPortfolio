@@ -9,7 +9,6 @@
     <!-- AOS library -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <!-- sass -->
     {{ $scss := resources.Get "scss/main.scss" }}
     {{ $style := $scss | toCSS | minify | fingerprint }}
