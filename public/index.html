@@ -8,15 +8,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,600,900&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    
+    <link rel="stylesheet" href="/scss/main.min.98d910f6b04a3b783eb54de5b765b14317eb180e49599e85f641fce1a98eb606.css">
+    
+    <title>Hugo Sandbox</title>
 
-    
-    
-    
-    <link rel="stylesheet" href="/scss/main.min.5261a20fdc9fa6cfbefa7d8243eaf847dbeb798bda2e5ed2e2b4f853a75b5f72.css">
-    
-    <title>Home</title>
-
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 <body>
@@ -57,21 +55,21 @@
 
 </div></div>
 
-    <div class="home__container__cards">
+    <div class="home__container__cards fade-in-slow">
         
-        <a href="/project_posts/" class="home__card layered-fade">
+        <a href="/project_posts/" class="home__card">
             <h2 class="home__card--title">Projects</h2>
             <hr class="home__card--line">
             <p class="home__card--description">My latest projects</p>
         </a>
         
-        <a href="/about/" class="home__card layered-fade">
+        <a href="/about/" class="home__card">
             <h2 class="home__card--title">About</h2>
             <hr class="home__card--line">
             <p class="home__card--description">🔥Get to learn a little bit about me!</p>
         </a>
         
-        <a href="/blog_posts/" class="home__card layered-fade">
+        <a href="/blog_posts/" class="home__card">
             <h2 class="home__card--title">Blog</h2>
             <hr class="home__card--line">
             <p class="home__card--description">Tutorials, tips and tricks for developers</p>
@@ -81,18 +79,55 @@
 
 </div>
 
+
+
     <footer>Made with ♡ by Tyler Morales</footer>
 
     
-    <script src="/js/vendors/hamburger.js"></script>
+    <script>
+        const navButtons = [...document.querySelectorAll("button[aria-expanded]")];
+
+        function toggleNav() {
+            const expanded = this.getAttribute("aria-expanded") == "true" || false;
+            this.setAttribute("aria-expanded", !expanded);
+        }
+        navButtons.map(button => {
+            button.addEventListener("click", toggleNav);
+        });
+
+        
+        
+        var hamburger = document.querySelector(".hamburger");
+        
+        hamburger.addEventListener("click", function () {
+            
+            hamburger.classList.toggle("is-active");
+            
+        });
+    </script>
 
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"></script>
-    <script src="/js/vendors/mark.js"></script>
+    <script>
+        const instance = new Mark(document.querySelector("section.context"));
+        instance.mark(["interactive", "real-time", "modern design"], {
+            "element": "mark",
+            "className": "highlight"
+        });
 
-    
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="/js/vendors/aos.js"></script>
+        const instance2 = new Mark(document.querySelector("section.about"));
+        instance2.mark(["purposeful design", "intuitive web experiences", "building interactive", "Chicago meetups", "document our progress", "learn the latest technologies", "globally","Web Development and Design", "Columbia College Chicago"], {
+            "element": "mark",
+            "className": "highlight",
+            "acrossElements": true,
+            "separateWordSearch": false,
+            "accuracy": {
+                "value": "exactly",
+                "limiters": [",", "."]
+            },
+        });
+    </script>
+
 
     </body>
 
